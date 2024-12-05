@@ -601,17 +601,18 @@ function redzLib:MakeWindow(Configs)
   end)
   
   local Crown = Create("ImageLabel"), Topbar, {
-    Crown.Name = "Crown"
-    Crown.AnchorPoint = Vector2.new(0.300000012, 0.800000012)
-    Crown.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    Crown.BackgroundTransparency = 1.000
-    Crown.BorderColor3 = Color3.fromRGB(0, 0, 0)
-    Crown.BorderSizePixel = 0
-    Crown.Rotation = -20.000
-    Crown.Size = UDim2.new(0, 75, 0, 75)
-    Crown.Image = "rbxassetid://82045763545397"
-    Crown.ImageColor3 = Color3.fromRGB(0, 255, 255)
-  }, {
+    Crown.Name = "Crown";
+    Crown.AnchorPoint = Vector2.new(0.300000012, 0.800000012);
+    Crown.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+    Crown.BackgroundTransparency = 1.000;
+    Crown.BorderColor3 = Color3.fromRGB(0, 0, 0);
+    Crown.BorderSizePixel = 0;
+    Crown.Rotation = -20.000;
+    Crown.Size = UDim2.new(0, 75, 0, 75);
+    Crown.Image = "rbxassetid://82045763545397";
+    Crown.ImageColor3 = Color3.fromRGB(0, 255, 255);
+},
+{ }
   
   local DialogBackground = insertTheme(AddConnection(Create("TextButton", MainFrame, {
     BackgroundTransparency = 0.5,
