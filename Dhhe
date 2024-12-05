@@ -600,8 +600,7 @@ function redzLib:MakeWindow(Configs)
     SaveSenttigs("redz library V4.lua", redzLib.Save)
   end)
   
-local Crown = Create("ImageLabel"), {
-  Crown.Name = "Crown",
+local Crown = Create("ImageLabel", Topbar, {
   Crown.AnchorPoint = Vector2.new(0.300000012, 0.800000012),
   Crown.BackgroundColor3 = Color3.fromRGB(255, 255, 255),
   Crown.BackgroundTransparency = 1.000,
