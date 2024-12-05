@@ -609,9 +609,11 @@ function redzLib:MakeWindow(Configs)
     Crown.BorderSizePixel = 0,
     Crown.Rotation = -20.000,
     Crown.Size = UDim2.new(0, 75, 0, 75),
+    Crown.Position = UDim2.new(1, -10, 0.5, 1.6),
     Crown.Image = "rbxassetid://82045763545397",
     Crown.ImageColor3 = Color3.fromRGB(0, 255, 255)
 }, {
+})
   
   local DialogBackground = insertTheme(AddConnection(Create("TextButton", MainFrame, {
     BackgroundTransparency = 0.5,
