@@ -607,9 +607,9 @@ local Crown = Create("ImageLabel", Topbar, {
     BorderColor3 = Color3.fromRGB(0, 0, 0),
     Rotation = -20,
     Size = UDim2.new(0, 75, 0, 75),
-    Position = UDim2.new(0, 0, 0.5, 1.6),
+    Position = UDim2.new(0, 0, 0.5, 0),
     Image = "rbxassetid://82045763545397",
-    ImageColor3 = Color3.fromRGB(0, 0, 0)
+    ImageColor3 = Color3.fromRGB(255, 255, 255)
 })
   
   local DialogBackground = insertTheme(AddConnection(Create("TextButton", MainFrame, {
