@@ -607,7 +607,7 @@ local Crown = Create("ImageLabel", Topbar, {
     Rotation = -20,
     Size = UDim2.new(0, 75, 0, 75),
     Position = UDim2.new(0, 0, 0.1, 0),
-    Image = "rbxassetid://117245754607286",
+    Image = "rbxassetid://111183798572957",
     ImageColor3 = Color3.fromRGB(255, 255, 255)
 })
   
@@ -2166,7 +2166,7 @@ local Crown = Create("ImageLabel", Topbar, {
   function Window:AddMinimizeButton(Configs)
     local ButtonProps = Configs[1] or Configs.Button or {}
     local UICorner = Configs[2] or Configs.UICorner or {true, {CornerRadius = UDim.new(0.5, 0)}}
-    local UIStroke = Configs[3] or Configs.UIStroke or {false, {Color = Theme["Color Stroke"]}}
+    local UIStroke = Configs[3] or Configs.UIStroke or {false, {Color = Theme["Color Theme"]}}
     UICorner[2] = UICorner[2] or {}
     UIStroke[2] = UIStroke[2] or {}
     
